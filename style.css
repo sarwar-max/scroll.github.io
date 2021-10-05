@@ -1,0 +1,598 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+.first-scroll {
+  overflow: hidden;
+}
+
+.scroller img {
+  position: absolute;
+  top: 8%;
+  right: 50rem;
+  z-index: 1;
+  position: fixed;
+}
+.downloads {
+  position: absolute;
+  top: 5%;
+  left: 17rem;
+  width: 30rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 49%;
+}
+
+/* Left Content start */
+.left-content {
+  height: 100vh;
+  width: 40%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.left-content img {
+  width: 50%;
+  z-index: 1;
+}
+.left-content .abc123 {
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+.abc123 h1,
+p {
+  margin-top: 10px;
+}
+.caseStudy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+/* Left Content end */
+
+.first-scroll .right-content {
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.first-scroll .right-content img {
+  height: 80vh;
+}
+
+/* Second section */
+.second-scroll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: hidden;
+  offset: unset;
+  overflow: hidden;
+}
+
+.second-scroll .scroller {
+  position: absolute;
+  top: 108%;
+  right: 50rem;
+  padding: 30px;
+  border-radius: 50%;
+}
+.second-scroll .downloads {
+  position: absolute;
+  top: 105%;
+  left: 17rem;
+  width: 30rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 49%;
+}
+.second-scroll .right-content {
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.second-scroll .right-content img {
+  height: 60vh;
+}
+.second-scroll .second-img2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.abc123 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+/* Third Section start */
+.text-third {
+  position: absolute;
+  top: 205%;
+  left: 17rem;
+  width: 30rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 49%;
+}
+.third-case {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Third Section end */
+
+/* Fourth Scroll */
+.fourth-scroll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: hidden;
+  offset: unset;
+  overflow: hidden;
+}
+
+.fourth-scroll .downloads {
+  position: absolute;
+  top: 305%;
+  left: 17rem;
+  width: 30rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 49%;
+}
+.fourth-scroll .downloads-txt {
+  display: block;
+}
+.fourth-scroll .right-content {
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.fourth-scroll .right-content img {
+  height: 60vh;
+}
+.fourth-scroll .second-img2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+/* Fifth Scroll */
+.fifth-scroll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: hidden;
+  offset: unset;
+  overflow: hidden;
+}
+
+.fifth-scroll .downloads {
+  position: absolute;
+  top: 405%;
+  left: 17rem;
+  width: 30rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 49%;
+}
+.fifth-scroll .downloads-txt {
+  display: block;
+}
+.fifth-scroll .right-content {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fifth-scroll .right-content img {
+  height: 20rem;
+}
+.top-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 10rem;
+}
+.bottom-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.walk-away {
+  padding-top: 10rem;
+}
+
+/* Sixth Scroll */
+.sisth-scroll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: hidden;
+  offset: unset;
+  overflow: hidden;
+}
+
+.sisth-scroll .downloads {
+  position: absolute;
+  top: 505%;
+  left: 17rem;
+  width: 30rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 49%;
+}
+.sisth-scroll .downloads-txt {
+  display: block;
+}
+.sisth-scroll .right-content {
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.sisth-scroll .right-content img {
+  height: 60vh;
+}
+.sisth-scroll .second-img2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+/* Seventh Scroll */
+.seventh-scroll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: hidden;
+  offset: unset;
+  overflow: hidden;
+}
+
+.seventh-scroll .downloads {
+  position: absolute;
+  top: 605%;
+  left: 17rem;
+  width: 30rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 49%;
+}
+.seventh-scroll .downloads-txt {
+  display: block;
+}
+.seventh-scroll .right-content {
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.seventh-scroll .right-content img {
+  height: 60vh;
+}
+.seventh-scroll .second-img2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+@media (max-width: 550px) {
+  section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .scroller {
+    display: none;
+  }
+
+  .downloads {
+    position: relative;
+    top: 0%;
+    left: 30px;
+  }
+  .first-scroll .downloads-txt {
+    padding-top: 20px;
+  }
+  .left-content {
+    height: 50vh;
+    width: 100%;
+  }
+  .left-content .scroller {
+    display: none;
+  }
+  .left-content .abc123 {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+  }
+  .first-scroll .right-content {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .first-scroll .right-content img {
+    height: 20rem;
+  }
+
+  /* Second Scroller */
+  .second-scroll {
+    display: flex;
+    flex-direction: column;
+  }
+  .second-scroll .downloads {
+    position: relative;
+    top: 0%;
+    left: -140px;
+  }
+  .second-scroll .right-content {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .second-scroll .right-content img {
+    height: 20rem;
+  }
+  .second-scroll .second-img2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  /* Third Section */
+  .third-scroll .third-img1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /* Fourth Scroll */
+  .fourth-scroll {
+    display: flex;
+    flex-direction: column;
+  }
+  .fourth-scroll .downloads {
+    position: relative;
+    top: 0%;
+    left: -130px;
+  }
+  .fourth-scroll .right-content {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .fourth-scroll .right-content img {
+    height: 20rem;
+  }
+  .fourth-scroll .img1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fourth-scroll .second-img2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+
+  /* Fifth Scroll */
+  .fifth-scroll {
+    display: flex;
+    flex-direction: column;
+  }
+  .fifth-scroll .downloads {
+    position: relative;
+    top: 0%;
+    left: -125px;
+  }
+
+  .fifth-scroll .right-content {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  .fifth-scroll .right-content img {
+    height: 10rem;
+  }
+  .top-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 0;
+  }
+  .bottom-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  /* Sixth Scroll */
+  .sisth-scroll {
+    display: flex;
+    flex-direction: column;
+  }
+  .sisth-scroll .downloads {
+    position: relative;
+    top: 0%;
+    left: -110px;
+  }
+  .sisth-scroll .right-content {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sisth-scroll .right-content img {
+    height: 20rem;
+  }
+  .sisth-scroll .img1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sisth-scroll .second-img2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+
+  /* Seventh Scroll */
+  .seventh-scroll {
+    display: flex;
+    flex-direction: column;
+  }
+  .seventh-scroll .downloads {
+    position: relative;
+    top: 0%;
+    left: -140px;
+  }
+  .seventh-scroll .right-content {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .seventh-scroll .right-content img {
+    height: 20rem;
+  }
+  .seventh-scroll .abc123 {
+    padding-bottom: 40px;
+  }
+}
+
+/* ################################################ */
+/* Setting fade transition and default settings */
+/* panel styles */
+.panel {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+/* colours */
+.color-violet {
+  background-color: #7920dd;
+}
+.color-indigo {
+  background-color: #cac7c7;
+}
+.color-blue {
+  background-color: #335de6;
+}
+.color-darkblue {
+  background-color: #090355;
+}
+.color-third {
+  background-color: #190342;
+}
+.color-thirdDark {
+  background-color: #170750;
+}
+.color-fourth {
+  background-color: #2d2847;
+}
+.color-fourthDark {
+  background-color: #0e0d16;
+}
+.color-fifth {
+  background-color: #362299;
+}
+.color-fifthDark {
+  background-color: #00c6d4;
+}
+.color-sixth {
+  background-color: #2400d8;
+}
+.color-sixthDark {
+  background-color: #a0a3a3;
+  background: url('./img/erp-app-development-service.png') no-repeat center
+    center/cover;
+}
+.color-seventh {
+  background-color: #097238;
+}
+.color-seventhDark {
+  background-color: #00d451;
+}
+/* styling for demo, can ignore */
+
+/* ################################################ */
